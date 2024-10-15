@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 // CORS configuration
 // Replace 'YOUR_FRONTEND_URL' with your actual frontend URL after deployment
 app.use(cors({
-  origin: 'YOUR_FRONTEND_URL',
+  origin: 'https://frontendtest-gze3.onrender.com',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
